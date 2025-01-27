@@ -1,5 +1,5 @@
-import Hero from '@/components/Hero'
-import NeuralScene from '@/components/Scene'
+import Hero from '../components/Hero'
+import NeuralScene from '../components/Scene'
 
 export default function Home() {
   return (
