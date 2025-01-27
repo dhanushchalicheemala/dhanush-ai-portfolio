@@ -1,9 +1,9 @@
 import Hero from '@/components/Hero'
 import NeuralScene from '@/components/Scene'
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="relative h-screen w-full overflow-hidden">
+    <>
       <NeuralScene />
       <Hero />
       
@@ -19,6 +19,6 @@ export default function Home() {
           Try: "Tell me about COVID sentiment analysis"
         </div>
       </div>
-    </main>
+    </>
   )
 }
