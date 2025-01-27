@@ -1,7 +1,7 @@
 import Hero from '@/components/Hero'
 import NeuralScene from '@/components/Scene'
 
-export default function HomePage() {
+export default function Home() {
   return (
     <>
       <NeuralScene />
@@ -16,7 +16,7 @@ export default function HomePage() {
           className="border p-2 rounded w-64"
         />
         <div className="mt-2 text-sm text-gray-600">
-          Try: "Tell me about COVID sentiment analysis"
+          Try: "Explain your CNN models"
         </div>
       </div>
     </>
